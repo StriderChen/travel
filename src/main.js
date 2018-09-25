@@ -8,7 +8,7 @@ import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 import 'style/reset.css'
 import 'style/border.css'
-import 'style/iconfont.css'
+import 'assets/iconfont/iconfont.css'
 import 'swiper/dist/css/swiper.css'
 
 

@@ -20,7 +20,9 @@ export default {
   data () {
     return {
       swiperOption: {
-        pagination: '.swiper-pagination',
+        pagination: {
+            el: '.swiper-pagination'
+        },
         loop: true
       }
     }
@@ -41,7 +43,7 @@ export default {
     width: 100%
     height: 0
     overflow: hidden
-    padding-bottom: 24.64%
+    padding-bottom: 30.64%
     background: #ccc
     .swiper-img
       width: 100%

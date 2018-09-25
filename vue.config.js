@@ -11,10 +11,9 @@ module.exports = {
         config.resolve.alias
             .set('@', resolve('src'))
             .set('assets', resolve('src/assets'))
-            .set('components', resolve('src/components'))
-            .set('layout', resolve('src/layout'))
-            .set('base', resolve('src/base'))
-            .set('static', resolve('src/static'))
+            .set('common', resolve('src/common'))
+            .set('base', resolve('src/store'))
+            .set('view', resolve('src/view'))
             .set('style', resolve('src/assets/style'))
     },
     devServer: {
