@@ -5,7 +5,8 @@
             <router-view/>
         </div>-->
         <!--显示当前路由地址所对应的内容-->
-        <keep-alive>
+        <!--keep-alive 标签,对所有的路由做缓存,exclude="detail"表示不对detail做缓存-->
+        <keep-alive exclude="detail">
             <router-view/>
         </keep-alive>
     </div>
